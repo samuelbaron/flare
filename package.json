@@ -12,7 +12,7 @@
   "dependencies": {
     "@capacitor/android": "^5.0.3",
     "@capacitor/app": "5.0.2",
-    "@capacitor/core": "^5.0.3",
+    "@capacitor/core": "5.0.3",
     "@capacitor/haptics": "5.0.2",
     "@capacitor/ios": "^5.0.3",
     "@capacitor/keyboard": "5.0.2",
@@ -25,7 +25,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@capacitor/cli": "^5.0.3",
+    "@capacitor/cli": "5.0.3",
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0",
@@ -44,8 +44,7 @@
     "eslint": "^8.4.1",
     "eslint-plugin-vue": "^9.8.0",
     "jest": "^27.3.1",
-    "ts-jest": "^27.0.7",
-    "typescript": "^4.3.5"
+    "ts-jest": "^27.0.7"
   },
   "description": "An Ionic project"
 }

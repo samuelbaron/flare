@@ -8,16 +8,15 @@
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Insights</ion-title>
+          <ion-title size="large" color="primary">Insights</ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <ExploreContainer name="Insights" />
+      <CardsList />
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import CardsList from '@/components/CardsList.vue'
 </script>

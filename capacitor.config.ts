@@ -5,7 +5,8 @@ const config: CapacitorConfig = {
   appName: 'flare',
   webDir: 'dist',
   server: {
-    androidScheme: 'https'
+    url: 'http://localhost:8080/',
+    cleartext: true
   }
 };
 
